@@ -1,0 +1,167 @@
+body{
+        background-color:#899655;
+ 
+        
+       
+}
+p {   
+  text-indent: 25px; 
+}
+
+ul, ol{
+	list-style:none;
+	}
+
+nav>li{
+	float:left;
+	}
+
+nav li a{
+	display:block;
+	text-decoration:none;
+	}
+
+nav ul li{
+	display:inline-block;
+	margin-right: 20px;
+	color:#e0e77e;
+	cursor: pointer;
+	padding: -5px;
+	transition: all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-o-transition: all 0.5s linear;
+}
+
+nav li:hover>ul{
+	display:block;
+	}
+
+nav li{
+	position: relative;
+	}
+
+nav li ul {
+	right:-110px;
+	min-width:240px;
+	aling:center;		
+}
+
+nav li ul {
+	display: none;
+	position:absolute;
+	background-color: #b1b1b1;
+	}
+
+nav ul li:hover{
+	background-color: #e26c4c;
+	color: #e44e2d;
+	border-radius: 5px;
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+nav li ul li {
+	position: relative;
+	margin-right: 20px;
+	}
+
+#contenido{
+	width:960px;
+	margin:0 auto;
+	text-align: center;
+}
+
+h1{
+	color:#e55653;
+}
+header h1{
+	text-shadow: 0px 0px 30px rgba(0,0,0,0.8);
+	border-bottom:solid;
+	padding-bottom: 10px;
+	border-width:4px;
+	border-bottom-right-radius: 2px;
+	border-color: #e2d1aa ;
+        margin:auto;
+}
+
+#Cuerpotexto{ 
+	width:1000px;
+	align=justify
+	height:auto;
+	background-color: #ffeec7; 
+	color:#7a7a7a;              
+        font-size:20px;
+        font: 100% verdana;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 20px;
+	padding: 20px 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5); 
+}
+
+#mediaC{
+	box-sizing:boder-box;
+}
+
+.particion{
+	width:45%;
+	display:inline-block;
+}
+#mediaC audio{
+	width:200px;
+}
+#mediaC video{
+	height: 180px;
+
+}
+
+a{
+	color:#e2d1aa ;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: "Verdana", cursive;
+}
+
+
+meter{
+	background-color: #fff;
+	padding: 3px;
+	border-radius: 20px;
+	width:200px;
+	margin-left: 20px;
+	color:#e44e2d;
+}
+
+label{
+	display:block;
+}
+#btnSubmit{
+	border:none;
+	background-color: #fff;
+	color:#e44e2d;
+	padding: 3px;
+	margin-left: 20px;
+	cursor:pointer;
+}
+
+#calificacion{
+	width: 150px;
+	-webkit-appearance:none;
+	background-color: #fff;
+	height:20px;
+	border-radius: 5px;
+	cursor:pointer;
+}
+#calificacion::-webkit-slider-thumb{
+	-webkit-appearance:none;
+	background-color: #e44e2d;
+	border-radius: 10px;
+	height: 15px;
+	width:10px;
+}
+#btnSubmit:hover{
+	text-transform: uppercase;
+}
+
